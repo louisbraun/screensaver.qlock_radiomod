@@ -11,7 +11,7 @@ __addonid__ = sys.modules["__main__"].__addonid__
 __cwd__ = sys.modules["__main__"].__cwd__
 
 loc = locale.getlocale(locale.LC_ALL) # get current locale
-locale.setlocale(locale.LC_ALL, 'de_DE')
+locale.setlocale(locale.LC_ALL, '')
 
 def log(txt):
     if isinstance(txt, str):
